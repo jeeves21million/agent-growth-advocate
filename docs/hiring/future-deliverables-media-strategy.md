@@ -25,9 +25,14 @@ Define how the agent can produce high-quality multi-format outputs required by m
 
 ### C) Video Generation & Assembly
 Possible model/tool options (depending on availability/policy):
-- **Veo 3** for scene-level generated clips
-- **Nano Banana 2** for image/creative generation workflows
+- **Veo-class tooling** for scene-level generated clips
+- **Nano Banana 2–class tooling** for image/creative generation workflows
 - Other generation/editing tools for transitions, captions, and exports
+
+Implementation approach:
+- Use Python/Node wrappers to call external media APIs consistently.
+- Keep provider-specific logic in small adapters so tools can be swapped without rewriting the full pipeline.
+- Persist prompts, settings, and output metadata for reproducibility and iterative optimization.
 
 ### D) Post-Production
 - Auto-captioning

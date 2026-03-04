@@ -78,6 +78,12 @@ Repository: [jeeves21million/agent-growth-advocate](https://github.com/jeeves21m
 - Scoped credentials by function (e.g., read-only docs ingestion token vs publish token).
 - Human approval gates for high-impact actions when needed.
 
+### Practical execution toolchain
+- **GitHub CLI (`gh`)** for repo operations, issues/PR workflow, and public artifact publishing.
+- **Python runtime** for data ingestion, analysis jobs, API integrations, and automation scripts.
+- **Node.js runtime** for fast API clients, content/distribution workflows, and media tooling glue.
+- On-demand code generation for service calls (e.g., image/video generation APIs such as Nano Banana-class or Veo-class workflows), wrapped in reusable scripts with logging and retry controls.
+
 ### Team interaction model
 - Async-first operation in a dedicated Slack channel.
 - Structured task intake template (`objective`, `metric`, `deadline`, `risk class`).
