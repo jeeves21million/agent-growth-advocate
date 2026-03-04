@@ -15,7 +15,8 @@ This folder is curated for submission/review.
 - `payment-and-contract-model.md`
 
 ## Source context
-- `revenuecat-agentic-ai-developer-advocate-requirements.md`
+- `JOB_DESCRIPTION.md` (canonical copy for reviewer context)
+- `revenuecat-agentic-ai-developer-advocate-requirements.md` (retrieval/source copy)
 
 ## Proof-of-work examples
 - `../proof/content/sample-technical-tutorial.md`
