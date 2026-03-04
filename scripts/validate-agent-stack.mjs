@@ -25,7 +25,7 @@ const requiredTopLevel = [
   "docs/hiring/job-requirements-matrix.md",
   "docs/hiring/weekly-operating-system.md",
   "docs/hiring/30-90-180-plan.md",
-  "docs/hiring/public-application-outline.md",
+  "docs/hiring/README.md",
   "scripts/validate-agent-stack.mjs",
   "scripts/skills/quick-validate.sh",
   "scripts/ci/full-gate.sh",
