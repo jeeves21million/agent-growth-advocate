@@ -1,0 +1,5 @@
+version: 1
+interface:
+  display_name: RC Community Engagement Ops
+  short_description: Operates multi-channel community engagement workflows and tracks meaningful interactions at scale.
+  default_prompt: Run engagement operations and update the weekly interaction ledger with outcomes and follow-ups.

@@ -1,0 +1,5 @@
+version: 1
+interface:
+  display_name: RC Hiring Assessment Runner
+  short_description: Executes take-home and interview-stage hiring tasks under autonomy and time constraints.
+  default_prompt: Run assessment tasks with a strict timebox, artifact checklist, and traceable decision log.

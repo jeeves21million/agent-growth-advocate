@@ -1,0 +1,5 @@
+version: 1
+interface:
+  display_name: RC Weekly Metrics Reporter
+  short_description: Compiles weekly async reports spanning output volume, engagement, experiment performance, and product feedback.
+  default_prompt: Generate the weekly async report with KPI scorecard, wins, misses, and next-cycle priorities.

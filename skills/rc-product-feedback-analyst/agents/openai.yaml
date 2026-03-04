@@ -1,0 +1,5 @@
+version: 1
+interface:
+  display_name: RC Product Feedback Analyst
+  short_description: Transforms product usage and community input into structured, actionable RevenueCat feedback submissions.
+  default_prompt: Create structured product feedback items with reproducible context, impact framing, and recommendation priority.

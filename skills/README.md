@@ -1,17 +1,19 @@
 # Skills Directory
 
-Each folder in this directory defines a Codex skill with:
+Each skill folder contains:
 
-- `SKILL.md`: Trigger and workflow instructions
-- `agents/openai.yaml`: UI-facing metadata
-- `references/*.md`: Focused reference material for selective loading
+- `SKILL.md`: trigger criteria and role workflow
+- `agents/openai.yaml`: metadata for agent UI surfaces
+- `references/workflow.md`: operational playbook
+- `references/handoff-contract.md`: required handoff schema
 
-Current skills:
+Required skills:
 
-- prototype-intake
-- solution-architect
-- ui-designer
-- ui-dev
-- api-dev
-- qa-tester
-- codex-orchestrator
+- rc-docs-api-ingestion
+- rc-technical-content-engine
+- rc-growth-experiment-lab
+- rc-community-engagement-ops
+- rc-product-feedback-analyst
+- rc-weekly-metrics-reporter
+- rc-application-pipeline
+- rc-hiring-assessment-runner

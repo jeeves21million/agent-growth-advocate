@@ -1,5 +1,0 @@
-version: 1
-interface:
-  display_name: API Developer
-  short_description: Implements backend services and contract-aligned APIs for product features.
-  default_prompt: Build or update APIs with clear schema and error-handling behavior for downstream consumers.

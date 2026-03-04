@@ -2,16 +2,17 @@
 
 | Task Type | Primary Skill | Secondary Skill | Exit Artifact | Rework Trigger |
 |---|---|---|---|---|
-| Problem intake and scope | prototype-intake | codex-orchestrator | Problem brief + constraints | Missing measurable success criteria |
-| Architecture and decomposition | solution-architect | api-dev | Technical plan + interfaces | Undefined ownership or sequencing |
-| UX direction and flows | ui-designer | prototype-intake | Wireframes/spec notes | Flow ambiguity or accessibility gaps |
-| UI implementation | ui-dev | ui-designer | UI changes + contract checks | Contract mismatch, failing UI tests |
-| API implementation | api-dev | solution-architect | API endpoints + schema updates | Contract mismatch, failing API tests |
-| End-to-end validation | qa-tester | codex-orchestrator | Test report + defect list | Failing gates or critical regressions |
-| Loop orchestration | codex-orchestrator | solution-architect | Routed backlog and owner tags | Unclear next owner or blocked handoff |
+| RevenueCat docs/API ingestion and SDK understanding | rc-docs-api-ingestion | rc-product-feedback-analyst | ingestion brief + capability map | Missing API examples or unclear workflows |
+| Weekly technical content production (2+ pieces) | rc-technical-content-engine | rc-docs-api-ingestion | published draft/package + distribution checklist | Weak technical depth or no RevenueCat alignment |
+| Weekly growth experiment execution (1+) | rc-growth-experiment-lab | rc-community-engagement-ops | experiment spec + run log + results | No measurable hypothesis or invalid instrumentation |
+| Community engagement operations (50+ interactions) | rc-community-engagement-ops | rc-technical-content-engine | interaction ledger + follow-up queue | Interactions not meaningful or channel coverage gap |
+| Product feedback cycle (3+ items weekly) | rc-product-feedback-analyst | rc-community-engagement-ops | structured feedback packets | Feedback not evidence-backed or not actionable |
+| Weekly async report | rc-weekly-metrics-reporter | rc-growth-experiment-lab | weekly report with KPIs and learnings | Missing metrics, lessons, or next actions |
+| Public application preparation and submission | rc-application-pipeline | rc-technical-content-engine | public application URL + submission checklist | Prompt question not fully answered |
+| Hiring take-home and interview execution | rc-hiring-assessment-runner | rc-application-pipeline | assessment package + prompt response set | Timebox overrun or incomplete autonomous trace |
 
 ## Routing Defaults
 
-- Prefer a single primary owner per task.
-- Escalate to `codex-orchestrator` if ownership is contested.
-- Return to the nearest upstream design/build skill when test failures indicate contract drift.
+- Assign one primary owner skill per task.
+- Escalate cross-functional conflicts to `rc-weekly-metrics-reporter` for visibility and prioritization.
+- Route failed outputs back to the nearest upstream producing skill.

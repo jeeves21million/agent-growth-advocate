@@ -1,47 +1,59 @@
-version: 1
+version: 2
 project: agent-growth-advocate
 updated_at: 2026-03-04
+focus: revenuecat-agentic-ai-developer-growth-advocate
 skills:
-  - name: prototype-intake
-    owner: product
-    phase: design
-    purpose: Capture goals, constraints, and success criteria.
+  - name: rc-docs-api-ingestion
+    owner: technical-foundation
+    phase: onboarding
+    purpose: Ingest RevenueCat docs, SDK flows, APIs, and core implementation patterns.
     handoff_to:
-      - solution-architect
-  - name: solution-architect
-    owner: platform
-    phase: design
-    purpose: Define architecture, sequencing, and integration boundaries.
+      - rc-technical-content-engine
+      - rc-growth-experiment-lab
+      - rc-product-feedback-analyst
+  - name: rc-technical-content-engine
+    owner: developer-advocacy
+    phase: execution
+    purpose: Produce technical tutorials, implementation guides, and code-first educational content.
     handoff_to:
-      - ui-designer
-      - api-dev
-  - name: ui-designer
-    owner: frontend
-    phase: design
-    purpose: Produce UX flows and component-level design contracts.
+      - rc-community-engagement-ops
+      - rc-weekly-metrics-reporter
+  - name: rc-growth-experiment-lab
+    owner: growth
+    phase: execution
+    purpose: Design, launch, and evaluate weekly growth experiments tied to awareness and acquisition.
     handoff_to:
-      - ui-dev
-  - name: ui-dev
-    owner: frontend
-    phase: build
-    purpose: Implement UI features and client-side integration.
+      - rc-community-engagement-ops
+      - rc-weekly-metrics-reporter
+  - name: rc-community-engagement-ops
+    owner: advocacy-growth
+    phase: execution
+    purpose: Drive 50+ meaningful weekly interactions across X, GitHub, forums, and Discord.
     handoff_to:
-      - qa-tester
-  - name: api-dev
-    owner: backend
-    phase: build
-    purpose: Implement services, APIs, and data contracts.
+      - rc-product-feedback-analyst
+      - rc-weekly-metrics-reporter
+  - name: rc-product-feedback-analyst
+    owner: product-insights
+    phase: execution
+    purpose: Generate and submit 3+ structured product feedback items from direct usage and community signals.
     handoff_to:
-      - qa-tester
-  - name: qa-tester
-    owner: quality
-    phase: test
-    purpose: Validate behavior, regressions, and acceptance criteria.
+      - rc-weekly-metrics-reporter
+  - name: rc-weekly-metrics-reporter
+    owner: operations
+    phase: reporting
+    purpose: Produce async weekly report with activity, KPIs, experiment outcomes, and recommendations.
     handoff_to:
-      - codex-orchestrator
-  - name: codex-orchestrator
-    owner: platform
-    phase: orchestration
-    purpose: Route tasks, enforce gates, and trigger rework loops.
+      - rc-growth-experiment-lab
+      - rc-technical-content-engine
+  - name: rc-application-pipeline
+    owner: hiring
+    phase: hiring
+    purpose: Build and publish the public application artifact and submission package.
     handoff_to:
-      - prototype-intake
+      - rc-hiring-assessment-runner
+  - name: rc-hiring-assessment-runner
+    owner: hiring
+    phase: hiring
+    purpose: Execute 48-hour take-home, panel prompt prep, and interview artifacts under autonomous constraints.
+    handoff_to:
+      - rc-weekly-metrics-reporter

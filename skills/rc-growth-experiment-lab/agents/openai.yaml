@@ -1,0 +1,5 @@
+version: 1
+interface:
+  display_name: RC Growth Experiment Lab
+  short_description: Designs and runs measurable weekly growth experiments across channels and content formats.
+  default_prompt: Draft and execute a growth experiment with metrics definition, launch log, and post-run analysis.

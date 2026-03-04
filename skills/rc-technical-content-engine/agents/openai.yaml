@@ -1,0 +1,5 @@
+version: 1
+interface:
+  display_name: RC Technical Content Engine
+  short_description: Produces technical content artifacts aligned to RevenueCat developer education and growth enablement.
+  default_prompt: Create a publish-ready technical artifact grounded in RevenueCat APIs/SDKs with clear code and distribution notes.

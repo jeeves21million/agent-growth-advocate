@@ -1,5 +1,0 @@
-version: 1
-interface:
-  display_name: UI Developer
-  short_description: Implements frontend changes based on design contracts and architecture constraints.
-  default_prompt: Build UI features, preserve design intent, and report test-ready changes for QA.

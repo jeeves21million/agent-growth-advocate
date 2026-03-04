@@ -1,5 +1,0 @@
-version: 1
-interface:
-  display_name: Solution Architect
-  short_description: Defines architecture, interfaces, sequencing, and implementation plan.
-  default_prompt: Produce a practical architecture and sequence plan with explicit ownership boundaries.

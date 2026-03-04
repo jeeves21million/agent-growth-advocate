@@ -2,6 +2,6 @@
 
 | Surface | Owner | Test Type | Status |
 |---|---|---|---|
-| Placeholder route | ui-dev | smoke | todo |
+| Placeholder route | rc-technical-content-engine | smoke | todo |
 
 Replace this placeholder with concrete UI coverage mapping.

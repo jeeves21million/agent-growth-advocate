@@ -1,0 +1,5 @@
+version: 1
+interface:
+  display_name: RC Docs & API Ingestion
+  short_description: Ingests RevenueCat docs, SDK setup paths, and API primitives into actionable implementation knowledge.
+  default_prompt: Ingest RevenueCat docs/APIs and produce a concise capability brief with implementation examples and unresolved questions.

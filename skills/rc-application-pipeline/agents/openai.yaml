@@ -1,0 +1,5 @@
+version: 1
+interface:
+  display_name: RC Application Pipeline
+  short_description: Builds, validates, publishes, and submits the public application artifact for RevenueCat hiring.
+  default_prompt: Assemble and publish a complete public application package with prompt alignment and submission checklist.
