@@ -25,6 +25,9 @@ Define a production-capable architecture for operating the Agentic AI Developer 
    - Synthesizes product feedback packets
 7. **reporting-worker**
    - Produces weekly async KPI reports
+8. **channel-adapter layer**
+   - Integrates interaction surfaces (Jira, Slack/Teams, Discord/Telegram, GitHub)
+   - Normalizes inbound/outbound events into shared task and telemetry schemas
 
 ## Data Layer
 

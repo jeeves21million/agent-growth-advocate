@@ -14,6 +14,7 @@ Provide real-time visibility into what the system is doing, what is blocked, and
 - Active tasks by skill
 - Current stage (`queued`, `running`, `blocked`, `review`, `done`, `failed`)
 - Runtime, model in use, last heartbeat
+- Channel/source context (Jira, Slack/Teams, Discord/Telegram, GitHub)
 - Direct links to artifacts/logs
 
 ### 2) Queue & SLA View
