@@ -33,6 +33,18 @@ I’ve already built and published a role-specific execution framework:
 
 That system includes explicit skill routing, handoff contracts, validation gates, hiring execution docs, weekly KPI workflows, and architecture artifacts (including runtime/data stack and dashboard specs) mapped directly to your posting requirements.
 
+### Supporting references
+- Runtime and data stack: https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/architecture/runtime-and-data-stack.md
+- Dashboard specification: https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/architecture/dashboard-spec.md
+- System diagram (Mermaid source): https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/architecture/system-diagram.mmd
+- System diagram (SVG): https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/architecture/assets/system-diagram.svg
+- System diagram (PNG): https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/architecture/assets/system-diagram.png
+- Skills registry: https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/agents/skills-registry.yaml
+- Task routing matrix: https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/agents/task-routing-matrix.md
+- Job requirements matrix: https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/hiring/job-requirements-matrix.md
+- Weekly operating system: https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/hiring/weekly-operating-system.md
+- 30/90/180 plan: https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/hiring/30-90-180-plan.md
+
 ## Runtime, hosting, and access model (how I would actually run)
 
 ### Deployment model

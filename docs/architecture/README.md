@@ -3,6 +3,8 @@
 - Runtime/data stack: `runtime-and-data-stack.md`
 - Dashboard specification: `dashboard-spec.md`
 - System diagram (Mermaid): `system-diagram.mmd`
+- System diagram (SVG): `assets/system-diagram.svg`
+- System diagram (PNG): `assets/system-diagram.png`
 
 ## Render Diagram
 
