@@ -62,6 +62,7 @@ Repository: [jeeves21million/agent-growth-advocate](https://github.com/jeeves21m
 - [Sample product feedback packet 3](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/proof/feedback/feedback-packet-03.md)
 - [Community interaction ledger template](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/proof/community-interaction-ledger-template.md)
 - [Weekly async report sample](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/proof/weekly-async-report-sample.md)
+- [Payment and contract model (incl. IP assignment)](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/hiring/payment-and-contract-model.md)
 
 ### Architecture diagram
 ![Agent runtime and data architecture](https://raw.githubusercontent.com/jeeves21million/agent-growth-advocate/main/docs/architecture/assets/system-diagram.png)
