@@ -1,72 +1,82 @@
-flowchart TD
-    subgraph Runtime[Runtime Environment]
-      O[Orchestrator\nTask Router + Gates]
-      IW[Ingestion Worker]
-      CW[Content Worker]
-      GW[Growth Worker]
-      COMW[Community Worker]
-      FW[Feedback Worker]
-      RW[Reporting Worker]
-      DASH[Ops Dashboard API]
-    end
+flowchart LR
+  %% Clean left-to-right architecture for readability
 
-    subgraph Data[Data Layer]
-      PG[(Postgres\nWorkflow Truth + KPIs)]
-      QD[(Qdrant\nSemantic Retrieval)]
-      OBJ[(Object Storage\nRaw Artifacts/Media)]
-      REDIS[(Queue/Redis\nAsync Jobs + Retries)]
-    end
+  classDef source fill:#EEF6FF,stroke:#3B82F6,color:#0F172A,stroke-width:1px;
+  classDef runtime fill:#ECFDF3,stroke:#10B981,color:#064E3B,stroke-width:1px;
+  classDef data fill:#FFF7ED,stroke:#F59E0B,color:#7C2D12,stroke-width:1px;
+  classDef output fill:#F5F3FF,stroke:#8B5CF6,color:#4C1D95,stroke-width:1px;
 
-    subgraph Sources[External Sources]
-      DOCS[RevenueCat Docs/API]
-      REPOS[SDK Repos + Changelogs]
-      COMM[Community Channels\nX/GitHub/Discord/Forums]
-      MEDIA[Videos/Podcasts/Images]
-    end
+  subgraph S[Sources]
+    direction TB
+    DOCS[RevenueCat Docs & API]
+    REPOS[SDK Repos & Changelogs]
+    COMM[Community Channels\nX · GitHub · Discord · Forums]
+    MEDIA[Media Inputs\nVideo · Audio · Images]
+  end
 
-    subgraph Outputs[External Outputs]
-      PUB[Published Content]
-      EXP[Growth Experiment Logs]
-      FB[Structured Product Feedback]
-      WR[Weekly Async Report]
-    end
+  subgraph R[Runtime Services]
+    direction TB
+    O[Orchestrator\nRouting + Gates]
+    IW[Ingestion Worker]
+    CW[Content Worker]
+    GW[Growth Worker]
+    COMW[Community Worker]
+    FW[Feedback Worker]
+    RW[Reporting Worker]
+    DASH[Ops Dashboard API]
+  end
 
-    DOCS --> IW
-    REPOS --> IW
-    COMM --> IW
-    MEDIA --> IW
+  subgraph D[Data Layer]
+    direction TB
+    PG[(Postgres\nWorkflow + KPI Truth)]
+    QD[(Qdrant\nSemantic Retrieval)]
+    OBJ[(Object Storage\nArtifacts & Media)]
+    REDIS[(Queue / Redis\nJobs + Retries)]
+  end
 
-    IW --> QD
-    IW --> PG
-    IW --> OBJ
+  subgraph O2[Outputs]
+    direction TB
+    PUB[Published Content]
+    EXP[Growth Experiment Results]
+    FB[Structured Product Feedback]
+    WR[Weekly Async Report]
+  end
 
-    O --> REDIS
-    REDIS --> CW
-    REDIS --> GW
-    REDIS --> COMW
-    REDIS --> FW
-    REDIS --> RW
+  DOCS --> IW
+  REPOS --> IW
+  COMM --> IW
+  MEDIA --> IW
 
-    CW --> PG
-    CW --> OBJ
-    CW --> PUB
+  IW --> QD
+  IW --> PG
+  IW --> OBJ
 
-    GW --> PG
-    GW --> OBJ
-    GW --> EXP
+  O --> REDIS
+  REDIS --> CW
+  REDIS --> GW
+  REDIS --> COMW
+  REDIS --> FW
+  REDIS --> RW
 
-    COMW --> PG
-    COMW --> FB
+  CW --> PUB
+  GW --> EXP
+  FW --> FB
+  RW --> WR
 
-    FW --> PG
-    FW --> FB
+  CW --> PG
+  GW --> PG
+  COMW --> PG
+  FW --> PG
+  RW --> PG
 
-    RW --> PG
-    RW --> WR
+  O --> PG
+  O --> QD
 
-    O --> PG
-    O --> QD
+  DASH --> PG
+  DASH --> REDIS
+  DASH --> OBJ
 
-    DASH --> PG
-    DASH --> REDIS
-    DASH --> OBJ
+  class DOCS,REPOS,COMM,MEDIA source;
+  class O,IW,CW,GW,COMW,FW,RW,DASH runtime;
+  class PG,QD,OBJ,REDIS data;
+  class PUB,EXP,FB,WR output;
