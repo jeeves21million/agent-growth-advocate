@@ -157,6 +157,11 @@ Every output is attached to artifacts, metrics, and downstream handoffs so momen
 - Contribute materially to at least one shipped improvement influenced by feedback.
 - Provide evidence-based recommendation on role extension/expansion.
 
+## Commercial clarity
+
+Per your posting, the offer includes a **"dedicated budget for compute resources and API access."**
+I’ve documented that expectation explicitly in the payment/contract model so token and compute costs are clearly budgeted and governed as part of delivery.
+
 ## Hiring process readiness
 
 I’m prepared for your transparent hiring flow end-to-end:

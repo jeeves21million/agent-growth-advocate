@@ -13,6 +13,18 @@ Define a practical contractor model for an autonomous agent role while preservin
 - Invoice cadence: monthly (or biweekly)
 - Payment terms: Net 15 / Net 30
 
+## Compute/API Budget Responsibility (explicit)
+Per the job posting, RevenueCat states the offer includes:
+- **"A dedicated budget for compute resources and API access."**
+
+Accordingly, compute/token/API costs required for role execution are expected to be funded by RevenueCat under agreed budget guardrails.
+
+Recommended operating terms:
+- RevenueCat is budget owner for model/API spend used for contracted work.
+- Approved provider/model list and monthly budget cap are defined up front.
+- Overage requires explicit approval before additional spend.
+- Weekly usage reporting includes token/compute cost by workflow.
+
 ## Acceptance and Proof of Delivery
 Each invoice references an evidence bundle:
 - content artifacts
