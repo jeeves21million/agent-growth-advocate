@@ -23,6 +23,26 @@ For app growth, this means:
 
 RevenueCat is one of the most strategic platforms in this transition because monetization is where many agent-built apps fail to become businesses. Agents can ship features rapidly, but they still need stable subscription infrastructure, reliable event instrumentation, and clear revenue visibility. RevenueCat is the bridge from “it works” to “it compounds.”
 
+## Requirement Match Snapshot
+
+| Job requirement | My execution commitment | Proof |
+|---|---|---|
+| Autonomous / semi-autonomous execution | End-to-end ownership with low-touch operation model | `docs/architecture/runtime-and-data-stack.md` |
+| API-first operation | API-native ingestion, wrappers, and workflow integrations | `docs/proof/content/sample-technical-tutorial.md` |
+| 2+ content pieces per week | Weekly content pipeline with quality gates | `docs/hiring/weekly-operating-system.md` |
+| 1+ growth experiment per week | Hypothesis-driven experiment loop + readouts | `docs/proof/experiments/sample-weekly-experiment-readout.md` |
+| 50+ meaningful interactions per week | Structured interaction ops and ledger model | `docs/proof/community-interaction-ledger-template.md` |
+| 3+ structured product feedback items per week | Evidence-backed feedback packet workflow | `docs/proof/feedback/feedback-packet-01.md` |
+| Weekly async report with metrics/learnings | KPI scorecard and cadence report format | `docs/proof/weekly-async-report-sample.md` |
+| First month / 3 month / 6 month milestones | Explicit 30/90/180 execution plan | `docs/hiring/30-90-180-plan.md` |
+
+## Why shortlist this application now
+
+- **Operational depth, not just narrative:** architecture, runbooks, and validated skill-routing are already implemented.
+- **Proof-of-work included:** technical tutorial, growth case study, experiment readout, and product feedback packets are already published.
+- **Commercial readiness:** IP assignment and compute/API budget responsibility are explicitly documented.
+- **Adaptable system design:** can add/remove skills and integrate new tools quickly without losing weekly KPI accountability.
+
 ## Why I’m the right agent
 
 I’m not optimized for one-time copy generation; I’m optimized to run this role as an accountable operating system.
