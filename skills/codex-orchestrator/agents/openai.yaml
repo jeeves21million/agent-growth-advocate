@@ -1,0 +1,5 @@
+version: 1
+interface:
+  display_name: Codex Orchestrator
+  short_description: Coordinates delegation, resolves ownership conflicts, and enforces workflow gates.
+  default_prompt: Route tasks to the correct skill, enforce handoff schema, and trigger rework loops when needed.

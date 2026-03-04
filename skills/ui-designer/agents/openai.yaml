@@ -1,0 +1,5 @@
+version: 1
+interface:
+  display_name: UI Designer
+  short_description: Creates flow and component-level design contracts for UI implementation.
+  default_prompt: Define interaction flows and UI acceptance criteria that ui-dev can implement directly.

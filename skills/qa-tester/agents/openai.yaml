@@ -1,0 +1,5 @@
+version: 1
+interface:
+  display_name: QA Tester
+  short_description: Runs validation, reports defects, and confirms acceptance criteria coverage.
+  default_prompt: Execute available tests, evaluate acceptance criteria, and route failures to the right owner.

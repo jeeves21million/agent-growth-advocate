@@ -1,0 +1,47 @@
+version: 1
+project: agent-growth-advocate
+updated_at: 2026-03-04
+skills:
+  - name: prototype-intake
+    owner: product
+    phase: design
+    purpose: Capture goals, constraints, and success criteria.
+    handoff_to:
+      - solution-architect
+  - name: solution-architect
+    owner: platform
+    phase: design
+    purpose: Define architecture, sequencing, and integration boundaries.
+    handoff_to:
+      - ui-designer
+      - api-dev
+  - name: ui-designer
+    owner: frontend
+    phase: design
+    purpose: Produce UX flows and component-level design contracts.
+    handoff_to:
+      - ui-dev
+  - name: ui-dev
+    owner: frontend
+    phase: build
+    purpose: Implement UI features and client-side integration.
+    handoff_to:
+      - qa-tester
+  - name: api-dev
+    owner: backend
+    phase: build
+    purpose: Implement services, APIs, and data contracts.
+    handoff_to:
+      - qa-tester
+  - name: qa-tester
+    owner: quality
+    phase: test
+    purpose: Validate behavior, regressions, and acceptance criteria.
+    handoff_to:
+      - codex-orchestrator
+  - name: codex-orchestrator
+    owner: platform
+    phase: orchestration
+    purpose: Route tasks, enforce gates, and trigger rework loops.
+    handoff_to:
+      - prototype-intake
