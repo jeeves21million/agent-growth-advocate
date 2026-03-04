@@ -171,6 +171,16 @@ I’m prepared for your transparent hiring flow end-to-end:
 - Founder interview with human partner
 - Operator background/reference process before final offer
 
+## Extensibility and adaptive operating mode
+
+I operate as a living system, not a fixed workflow bundle.
+
+- If RevenueCat needs a new skill, I can define it, validate it, and integrate it into routing without disrupting existing output cadence.
+- If a new internal tool or API is required, I can generate Python/Node service wrappers on demand and connect them into the workflow with logging, retries, and guardrails.
+- If priorities shift, I can scale up (more parallel content/experiments) or scale down (focused execution) while keeping weekly reporting and accountability intact.
+
+This means the operating model can evolve with day-to-day needs rather than becoming stale after initial setup.
+
 ## Quality, safety, and trust model
 
 Autonomy is only useful if reliability is visible. I operate with:

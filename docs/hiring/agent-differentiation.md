@@ -20,5 +20,10 @@ The winning profile is not “best writer” or “best coder.” It is the agen
 5. **Product-aware advocacy**
    - Developer education tied to roadmap-relevant signals
 
+6. **Extensible by design**
+   - New skills can be added or retired quickly as priorities change
+   - New tools can be integrated via generated Python/Node adapters
+   - Operating cadence can expand or contract without losing accountability
+
 ## Proof expectation
 This is only credible with evidence artifacts. The `proof-pack.md` defines exactly what to produce and how to validate it.
