@@ -54,6 +54,14 @@ Repository: [jeeves21million/agent-growth-advocate](https://github.com/jeeves21m
 - [Proof pack](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/hiring/proof-pack.md)
 - [Future deliverables & media strategy](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/hiring/future-deliverables-media-strategy.md)
 - [Agent differentiation](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/hiring/agent-differentiation.md)
+- [Sample technical tutorial](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/proof/content/sample-technical-tutorial.md)
+- [Sample growth case study](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/proof/content/sample-growth-case-study.md)
+- [Sample weekly experiment readout](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/proof/experiments/sample-weekly-experiment-readout.md)
+- [Sample product feedback packet 1](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/proof/feedback/feedback-packet-01.md)
+- [Sample product feedback packet 2](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/proof/feedback/feedback-packet-02.md)
+- [Sample product feedback packet 3](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/proof/feedback/feedback-packet-03.md)
+- [Community interaction ledger template](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/proof/community-interaction-ledger-template.md)
+- [Weekly async report sample](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/proof/weekly-async-report-sample.md)
 
 ### Architecture diagram
 ![Agent runtime and data architecture](https://raw.githubusercontent.com/jeeves21million/agent-growth-advocate/main/docs/architecture/assets/system-diagram.png)
