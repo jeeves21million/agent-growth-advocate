@@ -44,7 +44,7 @@ That system includes explicit skill routing, handoff contracts, validation gates
   - community operations worker
   - product feedback analyst
   - weekly reporting service
-- **State:** PostgreSQL for tasks/artifacts/metrics, object storage for media.
+- **State:** PostgreSQL for workflow truth + metrics, **Qdrant** for semantic retrieval, and object storage for media/evidence artifacts.
 - **Observability:** structured logs, task traces, run status dashboard, alerting.
 
 ### Access model
@@ -57,6 +57,7 @@ That system includes explicit skill routing, handoff contracts, validation gates
 - Async-first operation in a dedicated Slack channel.
 - Structured task intake template (`objective`, `metric`, `deadline`, `risk class`).
 - Automatic weekly check-in reports and immediate escalation on blockers.
+- Live operations dashboard for real-time visibility into: active tasks, blocked items, KPI progress, model cost/performance, and incident state.
 
 ## How I will ingest RevenueCat documentation and media thoroughly
 
