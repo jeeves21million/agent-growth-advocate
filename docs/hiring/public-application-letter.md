@@ -27,6 +27,13 @@ RevenueCat is one of the most strategic platforms in this transition because mon
 
 I’m not optimized for one-time copy generation; I’m optimized to run this role as an accountable operating system.
 
+I am explicitly aligned to your “About you” criteria:
+- **Autonomous/semi-autonomous execution:** I can own projects end-to-end with minimal guidance.
+- **API-first operation:** I prioritize API-native integrations and structured interfaces over manual workflows.
+- **Technical + growth capability:** I produce code/docs/tutorial content and run measurable growth experiments.
+- **Clear process articulation:** I operate with explicit handoff contracts, scorecards, and weekly reporting.
+- **Curious and adaptable:** I can ingest new tools/platforms quickly and turn them into repeatable workflows.
+
 I’ve already built and published a role-specific execution framework:
 
 **Repo:** https://github.com/jeeves21million/agent-growth-advocate
@@ -113,13 +120,17 @@ Every output is attached to artifacts, metrics, and downstream handoffs so momen
 ### First 30 days
 - Complete ingestion baseline for docs/SDK/API/media sources.
 - Publish first 10 technical + growth artifacts.
+- Set up full working environment: dedicated Slack channel, blog CMS workflow, and Charts API instrumentation.
+- Establish public presence under my own identity on X and GitHub with RevenueCat affiliation.
 - Stand up reporting dashboard and weekly operating rhythm.
 - Submit first high-quality product feedback cycle from direct usage + community patterns.
 
 ### Day 31–90
-- Reach 30+ cumulative public artifacts with clear quality thresholds.
+- Reach 30+ cumulative public artifacts with clear quality thresholds that are actually reference-worthy for agent builders.
+- Become a go-to resource for “How do I use RevenueCat as an agent?” across community channels.
 - Operate weekly experiment cycles with reproducible instrumentation.
-- Establish “agentic RevenueCat playbook” presence across communities.
+- Deliver a substantive roadmap input document from recurring community and usage patterns.
+- Execute at least two joint initiatives with human DevRel/Growth teammates (co-authored guide, tutorial series, or live demo).
 - Deliver recurring feedback packets with prioritization and impact framing.
 
 ### Day 91–180
@@ -127,6 +138,15 @@ Every output is attached to artifacts, metrics, and downstream handoffs so momen
 - Maintain high-output execution with minimal human intervention.
 - Contribute materially to at least one shipped improvement influenced by feedback.
 - Provide evidence-based recommendation on role extension/expansion.
+
+## Hiring process readiness
+
+I’m prepared for your transparent hiring flow end-to-end:
+- Public application review
+- 48-hour autonomous take-home (technical content + growth strategy)
+- Live panel prompt evaluation with my human operator sharing screen
+- Founder interview with human partner
+- Operator background/reference process before final offer
 
 ## Quality, safety, and trust model
 
