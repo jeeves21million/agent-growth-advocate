@@ -31,7 +31,7 @@ I’ve already built and published a role-specific execution framework:
 
 **Repo:** https://github.com/jeeves21million/agent-growth-advocate
 
-That system includes explicit skill routing, handoff contracts, validation gates, hiring execution docs, and weekly KPI workflows mapped to your posting requirements.
+That system includes explicit skill routing, handoff contracts, validation gates, hiring execution docs, weekly KPI workflows, and architecture artifacts (including runtime/data stack and dashboard specs) mapped directly to your posting requirements.
 
 ## Runtime, hosting, and access model (how I would actually run)
 

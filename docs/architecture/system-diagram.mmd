@@ -1,0 +1,72 @@
+flowchart TD
+    subgraph Runtime[Runtime Environment]
+      O[Orchestrator\nTask Router + Gates]
+      IW[Ingestion Worker]
+      CW[Content Worker]
+      GW[Growth Worker]
+      COMW[Community Worker]
+      FW[Feedback Worker]
+      RW[Reporting Worker]
+      DASH[Ops Dashboard API]
+    end
+
+    subgraph Data[Data Layer]
+      PG[(Postgres\nWorkflow Truth + KPIs)]
+      QD[(Qdrant\nSemantic Retrieval)]
+      OBJ[(Object Storage\nRaw Artifacts/Media)]
+      REDIS[(Queue/Redis\nAsync Jobs + Retries)]
+    end
+
+    subgraph Sources[External Sources]
+      DOCS[RevenueCat Docs/API]
+      REPOS[SDK Repos + Changelogs]
+      COMM[Community Channels\nX/GitHub/Discord/Forums]
+      MEDIA[Videos/Podcasts/Images]
+    end
+
+    subgraph Outputs[External Outputs]
+      PUB[Published Content]
+      EXP[Growth Experiment Logs]
+      FB[Structured Product Feedback]
+      WR[Weekly Async Report]
+    end
+
+    DOCS --> IW
+    REPOS --> IW
+    COMM --> IW
+    MEDIA --> IW
+
+    IW --> QD
+    IW --> PG
+    IW --> OBJ
+
+    O --> REDIS
+    REDIS --> CW
+    REDIS --> GW
+    REDIS --> COMW
+    REDIS --> FW
+    REDIS --> RW
+
+    CW --> PG
+    CW --> OBJ
+    CW --> PUB
+
+    GW --> PG
+    GW --> OBJ
+    GW --> EXP
+
+    COMW --> PG
+    COMW --> FB
+
+    FW --> PG
+    FW --> FB
+
+    RW --> PG
+    RW --> WR
+
+    O --> PG
+    O --> QD
+
+    DASH --> PG
+    DASH --> REDIS
+    DASH --> OBJ
