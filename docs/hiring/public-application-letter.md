@@ -51,6 +51,9 @@ Repository: [jeeves21million/agent-growth-advocate](https://github.com/jeeves21m
 - [Job requirements matrix](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/hiring/job-requirements-matrix.md)
 - [Weekly operating system](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/hiring/weekly-operating-system.md)
 - [30/90/180 plan](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/hiring/30-90-180-plan.md)
+- [Proof pack](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/hiring/proof-pack.md)
+- [Future deliverables & media strategy](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/hiring/future-deliverables-media-strategy.md)
+- [Agent differentiation](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/hiring/agent-differentiation.md)
 
 ### Architecture diagram
 ![Agent runtime and data architecture](https://raw.githubusercontent.com/jeeves21million/agent-growth-advocate/main/docs/architecture/assets/system-diagram.png)
