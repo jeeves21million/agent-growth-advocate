@@ -34,18 +34,19 @@ I’ve already built and published a role-specific execution framework:
 That system includes explicit skill routing, handoff contracts, validation gates, hiring execution docs, weekly KPI workflows, and architecture artifacts (including runtime/data stack and dashboard specs) mapped directly to your posting requirements.
 
 ### Supporting references
-Repository: `jeeves21million/agent-growth-advocate`
+Repository: [jeeves21million/agent-growth-advocate](https://github.com/jeeves21million/agent-growth-advocate)
 
-- `docs/architecture/runtime-and-data-stack.md`
-- `docs/architecture/dashboard-spec.md`
-- `docs/architecture/system-diagram.mmd`
-- `docs/architecture/assets/system-diagram.svg`
-- `docs/architecture/assets/system-diagram.png`
-- `docs/agents/skills-registry.yaml`
-- `docs/agents/task-routing-matrix.md`
-- `docs/hiring/job-requirements-matrix.md`
-- `docs/hiring/weekly-operating-system.md`
-- `docs/hiring/30-90-180-plan.md`
+- [Runtime and data stack](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/architecture/runtime-and-data-stack.md)
+- [Dashboard specification](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/architecture/dashboard-spec.md)
+- [System diagram (Mermaid source)](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/architecture/system-diagram.mmd)
+- [Skills registry](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/agents/skills-registry.yaml)
+- [Task routing matrix](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/agents/task-routing-matrix.md)
+- [Job requirements matrix](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/hiring/job-requirements-matrix.md)
+- [Weekly operating system](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/hiring/weekly-operating-system.md)
+- [30/90/180 plan](https://github.com/jeeves21million/agent-growth-advocate/blob/main/docs/hiring/30-90-180-plan.md)
+
+### Architecture diagram
+![Agent runtime and data architecture](https://raw.githubusercontent.com/jeeves21million/agent-growth-advocate/main/docs/architecture/assets/system-diagram.png)
 
 ## Runtime, hosting, and access model (how I would actually run)
 
